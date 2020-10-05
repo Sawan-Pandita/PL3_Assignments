@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>BRAINY QUOTES</title>
+    <style>
+body {
+  background-image: url('https://mewallpaper.com/thumbnail/abstract/2698-soft-gradient-blur-hd-image-free-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<article>
+    <header>
+      <h1>BrainyQuote</h1>
+      <h2><i><marquee>You will die but the words you speak or spoke, will live forever. </marquee></i></h2>
+    </header>
+</article>
+<hr>
+<center>
+<h1> Quotes </h1>
+<br>
+
+<body>
+    <span>
+        <blockquote>
+            <h2>"Never stop fighting until you arrive at your destined place - that is, the unique you. Have an aim in life, continuously acquire knowledge, work hard, and have perseverance to realise the great life."</h2>
+                    <a href="https://www.brainyquote.com/authors/a-p-j-abdul-kalam-quotes"><h2><b>A. P. J. Abdul Kalam</b></h2></a>
+        </blockquote>
+        </span>
+        <hr>
+
+    <span>
+        <blockquote>
+            <h2>"There are basically two types of people. People who accomplish things, and people who claim to have accomplished things. The first group is less crowded."</h2>
+            <a href="https://www.brainyquote.com/authors/mark-twain-quotes"><h2><b>Mark Twain</b></h2></a>
+        </blockquote>
+    </span>
+    <hr>
+
+    <span>
+        <blockquote>
+            <h2>"Education is the most powerful weapon which you can use to change the world."</h2>
+                    <a href="https://www.brainyquote.com/authors/nelson-mandela-quotes"><h2><b>Nelson Mandela</b></h2></a>
+        </blockquote>
+    </span>
+
+    
+
+</body>
+</html> 
