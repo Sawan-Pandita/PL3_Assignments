@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Astronomy-blogs</title>
+    <style>
+      body {
+        background-image: url("https://mewallpaper.com/thumbnail/abstract/2698-soft-gradient-blur-hd-image-free-wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: black;
+      }
+      p {
+        text-align: center;
+      }
+      image {
+    vertical-align: middle;
+    }
+    </style>
+  </head>
+    <img
+      style="display: inline"
+      src="data:image/jpeg;base64,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"
+      alt="logo"
+      height="50"
+      width="200"
+    />
+    <h1 style="display: inline" style="text-align: center">
+      <font style="display: inline;" face="Lato" size="6">Pick up some Astronomy stuffs</font>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <font face="Lato" size="3">
+        <a href="#" style="color:black">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" style="color: black">VIDEOS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" style="color: black">Contact Us</a>
+      </font>
+    </h1>
+    <br />
+    <hr />
+    <br />
+    <h1 align="center">
+      <font face="Lato" color="black" size="8">
+        
+      </font>
+    </h1>
+    <h2 style="color: black" textalign="center"><strong> About Us</strong></h2>
+    <p style="font-size: 20px">
+      <strong>
+        <p>
+          Blogs, they’re everywhere. Blogs about travel, blogs about pets, blogs about blogs. And astronomy is no exception. Astronomy blogs are a dime a dozen and with so many, where do you start when you need to find the most valuable information for your needs?
+
+           That’s what we’re here to help with. <br>
+
+          Astronomy is a natural science that studies celestial objects and phenomena. It uses mathematics, physics, and chemistry in order to explain their origin and evolution.
+
+          Astronomy is a rapidly growing field and it should come as no surprise that many people have something to say on the subject. So, this article is going to briefly review 51 data science blogs that we thought were pretty awesome and give you a snippet of what they are all about.We will give:   <br>
+
+          
+          A brief description of each blog (from my perspective).<br>
+          Their Alexa rank (which uses stats on visitors and page views over the last three months to give a global traffic ranking; this is updated daily so be aware that this can change from the time of writing).<br>
+          The frequency with which the blog is updated.<br>
+          An interesting article from the site being reviewed.<br>
+
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hope this helps!
+        </p>
+ 
+      </strong>
+    </p>
+    <br />
+    <p style="font-size: 20px">
+      <strong>
+       
+    </strong>
+    </p>
+    <hr />
+    <h2 style="color: red"><strong>Our blogs</strong></h2>
+    <div class= "image" style="float:left; padding-right:10px">
+        <img src="https://skyandtelescope.org/wp-content/uploads/Moon-and-Mars-Oct-28-31.jpg"/ width="600" height="360">
+    </div>
+    <div class="body">
+      <br>
+        <h2 style="text-align:inline;">
+         OCTOBER 2020: MARS IS THE STAR!
+        </h2>
+        <p style="display: inline">
+            <strong> Description: </strong>As evening twilight fades, make a left turn away from the sunset point, and you’ll have an easy time spotting Jupiter, perched above the southern horizon about a third of the way to overhead. Not far to Jupiter’s left is a dimmer but still obvious star. That’s actually Saturn. The nearly first-quarter Moon passes near Jupiter and Saturn on the 22nd, and they’ll make an attractive trio that night.         
+            <br>                 
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://skyandtelescope.org/observing/astronomy-podcasts/october-2020-mars-is-the-star/"><b>Read More here</b></a>
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+      <br>
+      <br>
+      <div class= "image" style="float:left; padding-right:10px">
+        <img src="http://www.strudel.org.uk/blog/astro/virtualsky.jpg"/ width="600" height="350">
+    </div>
+    <div class="body">
+      <br>
+        <h2 style="text-align:inline;">
+         Astronomy Blog
+        </h2>
+        <p style="display: inline">
+            <strong> Description: </strong> Despite what several major-media organisations may have reported in recent months, the first astronaut to run a marathon in space was Sunita Williams. She ran the Boston Marathon in 2007 onboard the International Space Station.
+
+The Telegraph (UK), ITV News (UK) and the Courier Mail (Australia) all seem to think that Tim Peake will be the "first person" to do this during tomorrow's London Marathon.         
+            <br>                 
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.strudel.org.uk/blog/astro/"><b>Read More here</b></a>
+        </p>
+      </div>
+      <br>
+      <br>
+    <hr />
+    <h2 style="color: blue"><strong> HERE ARE SOME MORE INTERESTING STORIES:</strong></h2>
+    <nav>
+        <p style="text-align: center">
+           <p>
+        <a href="https://www.astrobetter.com/wiki/Blogs+by+Astronomers">Astrobetter</a>
+      </p>
+       <p>
+        <a href="https://skyandtelescope.org/astronomy-resources/astronomy-blogs-podcasts/">Sky & Telescope</a>
+      </p>
+      <p>
+        <a href="https://mediablog.prnewswire.com/2018/12/24/astronomy-blogs/">Beyond Bylines</a>
+      </p>
+        </p>
+      </nav>
+      <br>
+      
+      <hr/>
+      <h2 style="color: black"><strong>Contact Us</strong></h2>
+       
+      <footer>
+        <p>Author : Sawan Pandita </p>
+        <p>Walchand college of Engineering, Sangli </p>
+        
+      </footer>
+  </body>
+</html>
