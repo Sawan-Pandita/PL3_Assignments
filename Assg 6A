@@ -1,0 +1,308 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<style>    
+* {    
+  box-sizing: border-box;    
+}    
+    
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+    
+label {    
+  padding: 12px 12px 12px 0;    
+  display: inline-block;    
+}    
+    
+input[type=submit] {    
+  background-color: rgb(37, 116, 161);    
+  color: white;    
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 4px;    
+  cursor: pointer;    
+  float: right;    
+}    
+    
+input[type=submit]:hover {    
+  background-color: #45a049;    
+}    
+    
+.container {    
+  border-radius: 5px;    
+  background-color: #f2f2f2;    
+  padding: 20px;    
+}    
+    
+.col-25 {    
+  float: left;    
+  width: 25%;    
+  margin-top: 6px;    
+}    
+    
+.col-75 {    
+  float: left;    
+  width: 75%;    
+  margin-top: 6px;    
+}    
+    
+/* Clear floats after the columns */    
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;    
+}    
+    
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */    
+</style>    
+</head>    
+<body>       
+<h2>FEED BACK FORM</h2>    
+<div class="container">    
+  <form>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Your Name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="lname">Roll Number</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="lname" name="lastname" placeholder="Your PRN">    
+      </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail Id</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+        </div>    
+      </div>      
+      <div class="row">    
+      <div class="col-25">    
+        <label for="country">Department</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+            <option value="none">Select Department</option>    
+          <option value="Computer Science and Engineering">Computer Science and Engineering</option>    
+          <option value="Information Technology">Information Technology</option>    
+          <option value="Mechanical Engineering">Mechanical Engineering</option>    
+          <option value="Civil Engineering">Civil Engineering</option>    
+          <option value="Electrical Engineering">Electrical Engineering</option>    
+        </select>    
+      </div>    
+    </div> 
+    <tr>
+            <td>
+                <label for ="myfile">Upload Image:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+                <input type="file" id="myfile" name="Files" accept="*/*"><br><br>
+            </td>
+          </tr>
+       
+    <table >
+      <th>
+        <h3>About Facilities provided By Department</h3>
+      </th>
+      <tr>
+        <td>
+            <label for="syllabus">Course Syllabus</label>
+        </td>
+
+        <td>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus"> Strongly Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Disagree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Strongly disagree<br>
+          </label>  
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Neutral<br>
+          </label>
+            
+        </td>
+      </tr>
+        <td>
+          <label for="Teach">Teaching Satisfication</label>
+        </td>
+        <td>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus"> Strongly Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Disagree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Strongly disagree<br>
+          </label>  
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Neutral<br>
+          </label>
+            
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="lab">Labs Sessions</label>
+        </td>
+        <td>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus"> Strongly Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Disagree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Strongly disagree<br>
+          </label>  
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Neutral<br>
+          </label>
+            
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Academics">Overall Department Rating</label>
+        </td>
+        <td>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">5<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">4<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">3<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">2<br>
+          </label>  
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">1<br>
+          </label>
+            
+        </td>
+      </tr>
+      <th>
+        <h3>Other than Academics</h3>
+      </th>
+      <tr>
+        <td>
+          <label>Workshops/Seminars</label>
+        </td>
+        <td>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus"> Strongly Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Disagree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Strongly disagree<br>
+          </label>  
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Neutral<br>
+          </label>
+            
+        </td>
+      <tr>
+      <tr>
+        <td>
+          <label>Guest Lectures</label>
+        </td>
+        <td>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus"> Strongly Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Disagree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Strongly disagree<br>
+          </label>  
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Neutral<br>
+          </label>
+            
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Events Conducted By Clubs</label>
+        </td>
+        <td>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus"> Strongly Agree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Disagree<br>
+          </label>
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Strongly disagree<br>
+          </label>  
+          <label class="radio-inline">
+                <input type="radio" name="syllabus">Neutral<br>
+          </label>
+            
+        </td>
+      </tr>
+      
+    </table>
+    <br>
+     
+    <div class="row">    
+      <div class="col-25">    
+        <label for="feed_back">Feed Back</label>    
+      </div>    
+      <div class="col-75">    
+        <textarea id="subject" name="subject" placeholder="Write down your feedback here.." style="height:200px"></textarea>    
+      </div>    
+    </div> 
+    <div class="row">    
+      <input type="submit" value="Submit" action="display_alert()" >    
+    </div>   
+  </form>  
+</div>     
+</body>    
+</html>  
