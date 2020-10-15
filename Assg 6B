@@ -1,0 +1,223 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<style>    
+* {    
+  box-sizing: border-box;    
+}    
+    
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+    
+label {    
+  padding: 12px 12px 12px 0;    
+  display: inline-block;    
+}    
+    
+input[type=submit] {    
+  background-color: rgb(37, 116, 161);    
+  color: white;    
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 4px;    
+  cursor: pointer;    
+  float: right;    
+}    
+    
+input[type=submit]:hover {    
+  background-color: #45a049;    
+}    
+    
+.container {    
+  border-radius: 5px;    
+  background-color: #f2f2f2;    
+  padding: 20px;    
+}    
+    
+.col-25 {    
+  float: left;    
+  width: 25%;    
+  margin-top: 6px;    
+}    
+    
+.col-75 {    
+  float: left;    
+  width: 75%;    
+  margin-top: 6px;    
+}    
+    
+/* Clear floats after the columns */    
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;    
+}    
+    
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */    
+</style>    
+</head>    
+<body>       
+<h2 align="center" style="color: red;">MHT-CET REGISTRATION FORM 2021</h2>    
+<div class="container">    
+  <form>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">First Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Your First Name.." required>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="lname">Last Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="lname" name="lastname" placeholder="Your Last Name" required>    
+      </div>    
+    </div> 
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">Father's Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="fname" placeholder="Father's Name" required>    
+      </div>    
+    </div> 
+    <div class="row">    
+      <div class="col-25">    
+        <label for="mname">Mother's Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="mname" name="mname" placeholder="Mother's Name" required>    
+      </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail Id</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Your mail id.." required>    
+        </div>    
+    </div>
+    <div class="row">    
+        <div class="col-25">    
+          <label for="MObile Number">Mobile Number</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="text" id="Mobile Number" name="Mobile Number" placeholder="Your Mobile Number" required>    
+        </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="Address">Address</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="text" id="Address" name="Address" placeholder="Your Address" required>    
+        </div>    
+    </div>  
+       
+    <tr>
+            <td>
+                <label for ="myfile">Upload an ID proof:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+                <input type="file" id="myfile" name="Files" accept="*/*" required><br><br>
+            </td>
+          </tr>
+       
+        <h3>Educational Qualification</h3>
+    <table >
+      <th>
+      </th>
+
+      <div class="row">    
+      <div class="col-25">    
+        <label for="country">Qualification</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+            <option value="none">Qualification</option>    
+          <option value="Computer Science and Engineering">12th</option>    
+          <option value="Information Technology">DIPLOMA</option>        
+        </select>    
+      </div>    
+    </div> 
+    <div class="row">    
+      <div class="col-25">    
+        <label for="country">Select Branch</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+            <option value="none">Select Branch</option>    
+          <option value="Computer Science and Engineering">Engineering</option>     
+        </select>    
+      </div>    
+    </div> <div class="row">    
+      <div class="col-25">    
+        <label for="country">Colleges</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+            <option value="none">Select College</option>    
+          <option value="Computer Science and Engineering">College Of Engineering,Pune</option>    
+          <option value="Information Technology">Walchand College Of Engineering,Sangli</option>    
+          <option value="Mechanical Engineering">Veermata Jijabai Technological Institute,Mumbai</option>    
+          <option value="Civil Engineering">Vishwakarma Institute of Technology,Pune</option>    
+          <option value="Electrical Engineering">Sardar Patel College of Engineering,Mumbai</option>    
+        </select>    
+      </div>    
+    </div> 
+       
+     <h3>Exam Preference</h3>
+      </div> <div class="row">    
+      <div class="col-25">    
+        <label for="country">Select City for Exam</label>    
+      </div>    
+      <div class="col-75">  
+              <select id="city">
+
+                <option >Select</option>
+                <optgroup label="MAHARASHTRA">
+                  <option value="Sangli">Sangli</option>
+                  <option value="Pune">Pune</option>
+                  <option value="Mumbai">Mumbai</option>
+                </optgroup> 
+                <optgroup label="KARNATAKA">
+                  <option value="Gulb">Gulbarga</option>
+                  <option value="Bang">Banglore</option>
+                  <option value="Badami">Badami</option>
+                </optgroup> 
+                <optgroup label="TELANGANA">
+                  <option value="Hyd">Hyderabad</option>
+                  <option value="Nzb">Nizamabad</option>
+                  <option value="Alam">Alampur</option>
+                </optgroup>   
+                <optgroup label="GUJARAT">
+                  <option value="Ahm">Ahmedabad</option>
+                  <option value="Srt">Surat</option>
+                  <option value="Vdo">Vadodara</option>
+                </optgroup> 
+                 
+        </select>    
+      </div>    
+    </div>
+    <br>
+    <div class="row">    
+      <input type="submit" value="Submit" action="display_alert()" >    
+    </div>   
+  </form>  
+</div>     
+</body>    
+</html>  
