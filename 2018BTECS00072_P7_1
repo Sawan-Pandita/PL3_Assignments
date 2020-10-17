@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sports Player</title>
+<style>
+	h1{
+		color:red;
+		text-align:center;
+		font-family:Arial;
+		padding:10px 10px 10px 10px;
+	}
+	h2{
+		color:red;
+		font-family:Arial;
+	}
+	.footer{
+		border:1px solid black;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h1>VIRAT KOHLI</h1>
+	</header>
+	<hr>
+	<section>
+		<h2><u>About</u></h2>
+		<article>
+			Virat Kohli is an Indian international cricketer, counted amongst the top sportsmen in India. Considered to be among the <strong>best batsmen</strong> in the present era, he also doubles up as an occasional right-arm medium pace bowler. He is known for his <strong>dependable and powerful batting style </strong>and has <strong>single-handedly won several matches for India.</strong> Virat became fascinated with cricket quite early on in his life and took to the bat when he was just three. His parents recognized his potential and had him enrolled at the West Delhi Cricket Academy when he was nine years old. He developed into a very talented player over the ensuing years and represented his city Delhi at various age-group levels and domestic cricket. His <strong>first major success came in 2008 when he captained India Under-19s to victory at the 2008 Under-19 World Cup.</strong> Soon he was selected to play for the Indian team and established himself as a valuable middle order player. After having gained a reputation as an<strong> “ODI specialist”, </strong>he has proved his mettle in test cricket as well. Currently, he is the<strong>captain of the Indian team in Test cricket</strong> and <strong>vice-captain in limited overs formats.</strong> Virat Kohli is married to famous Indian actress Anushka Sharma.
+		</article>
+	</section>
+	<hr>
+	<section>
+	<h2><u>Images</u></h2>
+	<center>
+		<img src="https://www.cricket.com.au/~/-/media/News/2017/10/29Kohliton.ashx?w=1600" height="200px" width="500px">
+		<figure>
+			<img src="https://i.cdn.newsbytesapp.com/images/197_9781587792692.jpg" height="200px" width="500px">
+			<figcaption>Virat Kohli-The King</figcaption>
+		</figure>
+		<figure>
+			<img src="https://m.economictimes.com/thumb/msid-71917504,width-1200,height-900,resizemode-4,imgsize-623426/untitled-3.jpg" alt="VK" height="200px" width="500px">
+			<figcaption>Virat Kohli-Best Player</figcaption>
+		</figure>
+	</center>
+	</section>
+	<hr>
+	<footer>
+		<address>
+			<h2><u>Basic information Of <strong>VIRAT KOHLI</strong></h2></u>
+			<p>
+			<h3>Birthday: November 5, 1988</h3>
+
+			<h3>Nationality:Indian</h3>
+
+			<h3>Age: 31 Years Old</h3>
+
+			<h3>Also Known As:Cheeku</h3>
+
+			<h3>Born In: Delhi</h3>
+
+			<h3>Famous As: Cricketer</h3>
+
+			<h3>Height: 5'9" (175 cm), 5'9" Males</h3>
+		</address>
+	</footer>
+</body>
+</html>
