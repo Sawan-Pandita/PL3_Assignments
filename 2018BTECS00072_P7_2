@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Electronic Device's Info</title>
+	<style>
+		header{
+			text-align:center;
+			color:red;
+		}
+		figure{
+			margin-left:20%;
+			margin-right:20%;
+			border:2px solid black;
+		}
+	</style>
+</head>
+<body background="https://images7.alphacoders.com/996/996873.jpg">
+	<header>
+		<h1>ELECTRONIC DEVICES</h1>
+	<nav align="left">
+		<h2>Visit the pages related to Electronic Devices!!</h2>
+		<a href="https://www.amazon.in/s?k=new+electronic+device&adgrpid=64439759488&ext_vrnc=hi&gclid=CjwKCAjwiaX8BRBZEiwAQQxGx7uAgs09eysvR7-XN4pi2Ql2OjHxTqAhg34-hSWmU8ZV5vgiZ2krqxoCjwEQAvD_BwE&hvadid=398060218039&hvdev=c&hvlocphy=1007788&hvnetw=s&hvqmt=e&hvrand=16057664579970411149&hvtargid=kwd-323795645698&hydadcr=24541_1971407&tag=googinhydr1-21&ref=pd_sl_6tu97pvb70_e">Amazon </a><br>
+		<a href="http://www.physics-and-radio-electronics.com/electronic-devices-and-circuits.html">Electronic Devices</a><br>
+		<a href="https://www.sciencedirect.com/topics/computer-science/electronic-device">More about Electronic Devices</a><br>
+	</nav>
+	</header>
+	<hr>
+	<center>
+	<section>
+		<h2>Image</h2>
+		<figure>
+			<img src="https://eshopdocs.joomservices.com/user/pages/01.getting-started/06.browsing-the-front-end/02.categories-page/categories-page.png" alt="Elec Devices" width="550px" usemap="#electronic">
+			<figcaption><strong><em>ELECTRONIC DEVICES</em></strong></figcaption>
+		</figure>
+		<map name="electronic">
+			<area shape="rect" coords="10,29,115,125" href="https://en.wikipedia.org/wiki/Camera" alt="computer" target="_blank">
+			<area shape="rect" coords="110,10,280,139" href="https://www.computerhope.com/jargon/c/computer.htm" alt="camera" target="_self">
+			<area shape="circle" coords="340,75,70" href="https://edu.gcfglobal.org/en/computerbasics/basic-parts-of-a-computer/1/" alt="compparts" target="_top">
+			<area shape="poly" coords="490,11,400,70,500,140,550,80,550,19" href="https://en.wikipedia.org/wiki/Smartphone" alt="smartphone" target="_top">
+			<area shape="circle" coords="200,185,65" href="https://in.jbl.com/speakers" alt="speakers" target="_blank">
+			<area shape="poly" coords="320,130,300,190,350,250,430,140,320,130" href="https://en.wikipedia.org/wiki/Smartphone" alt="smartphone" target="_top">
+		</map>
+	</section>
+	</center>
+	<hr>
+	<footer>
+		<center>
+			<h4>Author Details</h4>
+			<p>Interested people can contact here!!</p><br>
+			<p>
+				<strong>+91-7822739129</strong><br>
+				OR<br>
+				<strong>+91-9654871243</strong><br>
+				<u>Email us at:</u> deviceworld@gmail.com<br><br>
+				Person in-charge <strong>Sawan Pandita</strong>
+			</p>
+		</center>
+	</footer>
+</body>
+</html>
