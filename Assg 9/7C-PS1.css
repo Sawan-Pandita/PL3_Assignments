@@ -1,0 +1,27 @@
+h1{
+		background-color:lavender;
+		color:maroon;
+		text-align:center;
+		padding:10px 10px 20px 20px;
+	}
+	.nav{
+		padding:0;
+	}
+	a{
+		font-family:sans-serif;
+	}
+	h2{
+		color:green;
+		padding:0 0 10px 10px;
+		text-decoration:underline;
+	}
+	p{
+		color:red;
+	}
+	dd{
+		color:blue;
+		font-family:Times New Roman;
+	}
+	body{
+		background-image: url("https://images7.alphacoders.com/996/996873.jpg");
+	}
