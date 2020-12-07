@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Fundamentals</title>
+	<link rel="stylesheet" href="5-B-2.css">
+</head>
+<body>
+	<header><h2>Problem Statement: Write a program in any language to read 10 numbers from keyboard and find their sum and average.</h2></header><hr>
+	<section>
+		<h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      Program</h2>
+		<code>
+			#include &lt stdio.h &gt<br>
+			void main()<br>
+			{<br>
+	    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int n,sum=0;<br>
+	    
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("Input number of elements: ");<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scanf("%d",&n);<br>
+
+	    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int a[n];<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("Input ending number of range : ");<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int i=1;i<=n;i++);<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scanf("%d",&enno);<br>
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int j=1;j<=n;j++)<br>
+	    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum+=a[j];<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+	   
+	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("Sum of the elements is: ");<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("%d ",sum);<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("Average of the elements is: ");<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float avg=sum/n;<br>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("%f ",avg);<br>	
+	    	&nbsp;&nbsp;&nbsp;printf("\n");<br>
+			}
+
+		</code>	
+	</section><hr>
+	<section>
+		<h2>Input</h2>
+		<p>Input the size of the array: 10 <br>                                                                            
+           Input all the elements : 1 3 9 5 4 2 3 5 2 4
+			
+		</p>
+
+	</section><hr>
+	<section>
+		<h2>Output</h2>
+		<p>Sum of the elements is: 38</p>
+		<p>Average of the elements is: 3.8</p>
+	</section><hr>
+	<section>
+		<h2>Variables used in the program</h2>
+		<var>n,sum,a,avg </var>
+	</section><hr>
+	<section>
+		<h2>Complexity</h2>
+		<small>The complexitiy of above program is: O(n)</small>
+	</section><hr>
+	<h2 style="color: blue"><strong>Click here for More Algorithms</strong></h2>
+	<p><a href="https://www.geeksforgeeks.org/">Geeks For Geeks</a></p>
+	<p><a href="https://www.w3resource.com/c-programming-exercises/">W3 resources</a></p>
+	
+</body>
+</html>

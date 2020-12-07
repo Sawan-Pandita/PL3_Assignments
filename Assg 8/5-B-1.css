@@ -1,0 +1,28 @@
+body {
+      background-image: url("https://mewallpaper.com/thumbnail/abstract/2698-soft-gradient-blur-hd-image-free-wallpaper.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      color: black;
+}
+p {
+      text-align: center;
+}
+image {
+    vertical-align: middle;
+}
+h1{
+    display: inline;
+    text-align: center;
+}
+h2{
+  color: black;
+  text-align:center;
+}
+p{
+  font-size: 20px;
+}
+image{
+    float:left; 
+    padding-right:10px;
+}
